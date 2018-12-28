@@ -9,3 +9,6 @@ How is the staging area different from the working directory and the repository?
 	The working directory is the physical directory where the repository exists. The working directory contains all of the files in the directory as well as the git repository and its associated metadata. The staging area seems to be a workspace where you can organize the items that you would like to add to the repository. This keeps the organization of the repository as a separate step where adjustments can be made before adding the files to the repository.
 
 
+How can you use the staging area to make sure you have one commit per logical change?
+	A logical change may involve multiple files. By using the staging area, you can add only those files involved in the single logical change of interest. Use of the staging area allows commits to be organized around each logical change.
+	
