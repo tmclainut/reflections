@@ -8,3 +8,4 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	The working directory is the physical directory where the repository exists. The working directory contains all of the files in the directory as well as the git repository and its associated metadata. The staging area seems to be a workspace where you can organize the items that you would like to add to the repository. This keeps the organization of the repository as a separate step where adjustments can be made before adding the files to the repository.
 
+
