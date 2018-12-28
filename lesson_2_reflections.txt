@@ -11,4 +11,3 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 	A logical change may involve multiple files. By using the staging area, you can add only those files involved in the single logical change of interest. Use of the staging area allows commits to be organized around each logical change.
-	
