@@ -1,0 +1,8 @@
+# Reflections on Lesson 2
+
+What happens when you initialize a repository? Why do you need to do it?
+	It sets up a .git folder within the current working directory. This is a directory
+	where metadata for the repository is held. Once the repository is initialized files
+	can be added to the repository and commits can be made.
+
+	

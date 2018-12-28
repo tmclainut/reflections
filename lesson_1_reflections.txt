@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	You can see only the lines that have been changed between the two versions. It localizes
+	your search for the bug to just those lines. You can focus your search to the exact
+	difference between those lines that have changed.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If mistakes are introduced, it would allow me to recover quickly from those mistakes.
+    It would allow the evolution of the code development to be tracked.
+    One could have a "template" as a starting point for development projects
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: Commits can be based on logic: a single item, related items, appropriate
+    size and complexity
+    Cons: User error, one may forget to commit often enough
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Some version control systems recognize that files are interdependent with each
+    other and allow changes to multiple files to be saved in a single commit. Other 
+    VCS's are not meant to operate with multiple files for simplicity. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The command git log simply gives you a list of the commit history for all the files.
+    It gives the commit a unique ID, tells who made the commit, and when the commit was
+    made. It provides an option for the person committing to annotate what changes were
+    made.
+
+    The commend git diff allows you to learn how various commits in the repository are 
+    different from one another. It gives a line-by-line list of how tow files are different
+    both in terms of subtractions from the original file and additions to the original file.
+    In terms of syntax, the original file is listed first: git diff orig_file new_file.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because I know how to get back to the most recently committed version of the code 
+    (presumably a working version), I can try things and take chances, knowing that I 
+    easily revert to the most recent working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to try to use Git to maintain the simulation code for the UAV course. In particular, I'd like to have a repo for the latest version of the mavsim for the Aerosonde
+    with all of the recent updates to propulsion, yaw damping, and Aerosonde parameters.
+    I want to use Git to keep up to date with the readings that we'll do in the coming semester.
+    I'd like to use Git for the software in the Autonomous Systems course.
+    Finally, I'd like to use Git to maintain a LaTeX version of the UAV book.
+    
