@@ -11,3 +11,10 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 	A logical change may involve multiple files. By using the staging area, you can add only those files involved in the single logical change of interest. Use of the staging area allows commits to be organized around each logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	A branch would be helpful in organizing the development of a project when developing new features, exploring new approaches, experimenting, etc. Branches allow you to experiment without messing up the project master.
+
+How do the diagrams help you visualize the branch structure?
+	They help visualize the branch structure and their relationship to the branch master. They halp clarify what commits belong to each branch and the dependencies of the respective branches.
+	
