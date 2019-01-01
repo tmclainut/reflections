@@ -20,4 +20,8 @@ How do the diagrams help you visualize the branch structure?
 	
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	Merging two branches together creats a single branch. We represent them in the diagram in a way that shows the commit history.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	When there are no conflicts between commits, Git can automatically and effortlessly merge them -- Yay! When there are conflicts between commits, Git can highlight the conflicts and provide the user with the opportunity to resolve the conflicts -- according to the insights that the user has. The main con is that Git cannot read your mind -- yet.
+
 	
