@@ -1,3 +1,10 @@
 When would you want to create a remote repository rather than keeping all your work local?
-  Creating a remote repository would be useful when you are working from multiple computers, or when you are collaborating
-  others. It could also be useful just to have your work stored in the cloud for public access or for sharing.
+	Creating a remote repository would be useful when you are working from multiple computers, or when you are collaborating others. It could also be useful just to have your work stored in the cloud for public access or for sharing.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	Automatically updating from the remote repository may break a project that is currently underway and being tested. Updates on the remote may be unwanted locally.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	A fork is used on GitHub to copy another existing repository to be modified and used by you that also resides on GitHub. A clone is simply a copy of a repository. You can clone a repository locally. A branch is a new working copy that would vary from the master.
+	I have more to learn and understand about these terms.
+	
